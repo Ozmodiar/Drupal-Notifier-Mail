@@ -1,0 +1,8 @@
+name = "Notifier Mail"
+description = "This module provides the Notifier Mail Channel."
+package = "Notifier"
+version = "7.x-1.0"
+core = "7.x"
+project = "notifier_mail"
+dependencies[] = dic
+dependencies[] = notifier

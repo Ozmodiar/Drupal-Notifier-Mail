@@ -1,0 +1,8 @@
+parameters:
+  notifier_mail.mail_channel.class: Drupal\notifier_mail\MailChannel
+
+services:
+  notifier_mail.mail_channel:
+    class: "%notifier_mail.mail_channel.class%"
+    tags:
+      -  { name: notifier.channel }
