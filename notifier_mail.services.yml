@@ -1,5 +1,5 @@
 parameters:
-  notifier_mail.mail_channel.class: Drupal\notifier_mail\MailChannel
+  notifier_mail.mail_channel.class: Drupal\notifier_mail\Channel\MailChannel
 
 services:
   notifier_mail.mail_channel:

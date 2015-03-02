@@ -1,6 +1,6 @@
 <?php
 
-namespace Drupal\notifier_mail;
+namespace Drupal\notifier_mail\Channel;
 
 use Notifier\Mail\MailChannel as NotifierMailChannel;
 
